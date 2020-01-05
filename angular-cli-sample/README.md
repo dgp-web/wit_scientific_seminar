@@ -14,7 +14,7 @@ The project was created with the following command:
 
 ## Project parameters
 
-The following addons where chosen when creating the project.
+The following addons where chosen when creating the project:
 
 * ``@angular/router``
 * SCSS-preprocessor
