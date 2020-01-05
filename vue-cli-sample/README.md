@@ -1,34 +1,38 @@
 # vue-cli-sample
 
-## Project setup
-```
-npm install
-```
+## Installation of CLI  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The CLI was installed with the following command:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+`` npm install -g @vue/cli@4.1.2 ``
 
-### Run your unit tests
-```
-npm run test:unit
-```
+## Project creation
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+The project was created with the following command:
 
-### Lints and fixes files
-```
-npm run lint
-```
+`` vue create vue-cli-sample ``
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project parameters
+
+The following addons where chosen when creating the project:
+
+* Babel
+* Typescript
+* Router
+* SCSS-preprocessor
+* Linter
+* Unit Testing
+* E2E Testing
+
+The following settings where chosen:
+
+* class-style component syntax
+* Babel alongside Typescript
+* no history mode for Router
+* node-sass as SCSS engine
+* ESLint with standard config as linter
+* lint on save
+* Mocha + Chai as unit-testing tools
+* Cypress as E2E-testing tool
+* configs go to dedicated files
+* npm as package manager
