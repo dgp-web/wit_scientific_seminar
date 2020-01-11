@@ -1,0 +1,68 @@
+// --- nach der Installation des GitHub-Projekts von node-sass wird folgendes ausgegeben
+
+found 2 vulnerabilities (1 low, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+// --- npm audit liefert
+
+                       === npm audit security report ===
+
+# Run  npm install --save-dev mocha@6.2.2  to resolve 2 vulnerabilities
+SEMVER WARNING: Recommended action is a potentially breaking change
+
+  Critical        Command Injection
+
+  Package         growl
+
+  Dependency of   mocha [dev]
+
+  Path            mocha > growl
+
+  More info       https://npmjs.com/advisories/146
+
+
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Dependency of   mocha [dev]
+
+  Path            mocha > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+
+found 2 vulnerabilities (1 low, 1 critical) in 1206 scanned packages
+  2 vulnerabilities require semver-major dependency updates.
+
+
+// --- npm audit fix liefert
+
+fixed 0 of 2 vulnerabilities in 1206 scanned packages
+  1 package update for 2 vulnerabilities involved breaking changes
+  (use `npm audit fix --force` to install breaking changes; or refer to `npm audit` for steps to fix these manually)
+
+// --- npm audit fix –-force liefert
+
+npm WARN using --force I sure hope you know what you are doing.
+
+
++ mocha@6.2.2
+added 66 packages from 27 contributors, removed 12 packages and updated 8 packages in 13.991s
+
+fixed 2 of 2 vulnerabilities in 1206 scanned packages
+  1 package update for 2 vulnerabilities involved breaking changes
+  (installed due to `--force` option)
+
+
+
+// --- npm test lässt nach wie vor alle Tests erfolgreich laufen; in diesem Fall ist das Update also geglückt.
+
+// --- Ergebnis
+Das Paket mocha wird um gleich 3 Major -Versionen von
+ "mocha": "^3.1.2",
+    "mocha": "^6.2.2",
+erhöht
