@@ -1,7 +1,7 @@
-# webpack-sample
+# node-sass-project-sample
 
-This sample demonstrates that a single build dependency to the npm package **webpack**
-introduces 322 overall dependencies from 197 maintainers to a project.
+This sample demonstrates the number of dependencies and maintainers that
+come with an installation of the node-sass master branch.
 
 It requires an installation of [Node.JS >= 12.14.0](https://nodejs.org/en/).
 

@@ -1,5 +1,10 @@
 # vue-cli-sample
 
+This sample demonstrates the number of dependencies and maintainers that
+come with a default Vue project.
+
+It requires an installation of [Node.JS >= 12.14.0](https://nodejs.org/en/).
+
 ## Installation of CLI  
 
 The CLI was installed with the following command:
@@ -36,3 +41,10 @@ The following settings where chosen:
 * Cypress as E2E-testing tool
 * configs go to dedicated files
 * npm as package manager
+
+## Setup  
+
+Run `` npm install `` in this folder.
+
+When the installation is complete, the number of installed packages and the number
+of maintainers are printed to the console.

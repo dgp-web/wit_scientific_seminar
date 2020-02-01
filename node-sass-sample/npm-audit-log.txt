@@ -30,7 +30,8 @@ found 2 vulnerabilities (1 low, 1 critical) in 1206 scanned packages
 
 fixed 0 of 2 vulnerabilities in 1206 scanned packages
   1 package update for 2 vulnerabilities involved breaking changes
-  (use `npm audit fix --force` to install breaking changes; or refer to `npm audit` for steps to fix these manually)
+  (use `npm audit fix --force` to install breaking changes; or refer to
+  `npm audit` for steps to fix these manually)
 
 
 // --- npm audit fix –-force liefert
