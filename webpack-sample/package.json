@@ -2,6 +2,6 @@
   "name": "webpack-sample",
   "version": "1.0.0",
   "devDependencies": {
-    "webpack": "^4.41.5"
+    "webpack": "^5.75.0"
   }
 }
